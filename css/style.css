@@ -1,0 +1,266 @@
+header{
+	 background: black;
+	 display: flex;
+	 justify-content: space-around;
+	 color: white;
+	 position: fixed;
+	 left:0;
+	 right:0;
+	 z-index:10;
+
+
+
+	}
+	body{
+margin: 0;
+padding: 0;
+font-family:sans-serif;
+color: gray;
+
+}
+h1{
+
+font-size: 2em;
+font-weight: normal;
+}
+header .div{
+
+	padding-right:	700px;
+}
+header nav ul{
+	display: flex;
+	justify-content: space-around;
+
+}
+header nav ul li{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 15px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.ligne{
+display: flex;
+justify-content:space-around;
+}
+.ligne-1{
+	background:white;
+	border-radius:20px;
+	width: 200px;
+	height: 210px;
+	text-align: center;
+	justify-content: center;
+		flex-direction: column;
+	display: flex;
+	font-weight: bold;
+     box-shadow:0px 0px 23px rgba(0, 0, 0, 0.1);
+	transition: 0.7s ease-in 0s;
+
+}
+
+ .green:hover{
+	cursor: pointer;
+	background: green;
+	}
+.yellow:hover{
+	cursor: pointer;
+	background: yellow;
+	
+
+
+}
+.red:hover{
+	cursor: pointer;
+	background: red;
+
+
+}
+.ligne-2{
+	width: 100px;
+	border-radius: 50%;
+	height: 100px;
+	top: 10px;
+	position: relative;
+top: -10px;
+left: 50px;
+	background: white;
+	text-align: justify;
+}
+
+footer{
+	text-align: center;
+	background: black;
+	padding: 12px;
+	color:white;
+	position: relative;
+	left:0px;
+	right: 0px;
+
+
+}
+form{
+	padding-left:30%;
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+
+}
+form input[type=text],input[type=email],textarea{
+	box-sizing: border-box;
+	height:50px;
+	width: 150%;
+	border-radius:10px;
+	box-shadow: 0 0 23px ;
+	border-color:transparent;
+	box-shadow: 0px 0px  35px rgba(0, 0, 0,0.1);
+transition: 0.7s ease-in 0s;
+}
+form input[type=email]:hover{
+	background:#04050678;
+	color: white;
+}
+form input[type=text]:hover{
+	background:#04050678;
+	color: white;
+}
+form textarea:hover{
+	background:#04050678;
+
+}
+form input[type=submit]{
+ padding:10px 20px;
+ background:rgba(0, 0, 0, 0.3);
+ border-color: transparent;
+ transition: 0.7s ease-in 0s;
+}
+form input[type=submit]:hover{
+background: transparent;
+border-color: rgba(0, 0, 0, 0.3);
+}
+form a
+{
+text-decoration: none;
+}
+form  i
+{
+	font-size: 1.8em;
+	color: black;
+	position: relative;
+	top:40px;
+	
+	transition: 0.7s ease-in 0s;
+}
+form .icon-facebook2:hover
+{
+	color:#3b5998;
+}
+form .icon-mail:hover{
+	color: #b9766e;
+}
+form .icon-phone:hover{
+	color: #cd4a23;
+}
+form .icon-twitter:hover{
+	color:#3b5998;
+}
+.espace{
+	padding-top: 100px;
+}
+.tout{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 10px;
+}
+.droite{
+	display: flex;
+	flex-direction: column;
+}
+.gauche{
+	display: flex;
+	flex-direction: column;
+	}
+	.nom{
+		position: relative;
+		top: 3px;
+	}
+.barre{
+	height: 5px;
+	width: 500px;
+	background: #88888888;
+	border-radius: 5px;
+
+}
+.n-50{
+background: #FFFF00;
+	width:50%;
+}
+.n-80{
+background: #32CD32;
+	width:80%;
+}
+.n-96{
+background:#0000ff;
+width:96%;
+}
+.n-90{
+	background: #0000ff;
+width:90%;
+}
+.n-20{
+background:red;
+	width:50%;
+}
+.niveau {
+    height: 5px;
+    border-radius: 5px; 
+}
+.presentation{
+	display: flex;
+	justify-content: space-around;
+	padding-right: 500px;
+
+}
+.presentation .name{
+	padding-top: 100px;
+padding-right: 100px;
+}
+.presentation .name p{
+position: relative;
+top:-22px;
+}
+.presentation .name h2{
+font-size:30px;
+}
+.primaire{
+	display: flex;
+	justify-content: center;
+	position: relative;
+		align-items: center;
+	top:15px;
+}
+.college{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+	top:6px;
+}
+.diplome{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top:10px;
+		align-items: center;
+}
+.parc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: ju;
+}
+

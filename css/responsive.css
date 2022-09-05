@@ -1,0 +1,124 @@
+@media all and (max-width:700px)
+{
+    body
+    {
+       display: flex;
+       flex-direction: column;
+       margin:0;
+
+  
+    }
+    header
+    {
+   position: none;
+   display: flex;
+   flex-direction: column;
+  
+    }
+   
+
+header .div{
+
+   padding: 0px;
+   text-align: center;
+}
+header nav ul{
+    display: flex;
+   justify-content: space-around;
+
+   position: relative;
+   top:-20px;
+   right:10px ;
+   width:20%;
+
+
+
+
+
+}
+header nav ul li{
+
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+h2
+{
+font-size:2em;
+}
+
+.ligne{
+display: flex;
+flex-direction: column;
+padding-left:10%;
+}
+.ligne-1{
+    background:white;
+    border-radius:30px;
+    width: 300px;
+    height: 310px;
+    text-align: center;
+    justify-content: center;
+        flex-direction: column;
+    display: flex;
+    font-weight: bold;
+     box-shadow:0px 0px 23px rgba(0, 0, 0, 0.1);
+    transition: 0.7s ease-in 0s;
+
+}
+.ligne-2{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    top: 10px;
+    position: relative;
+top: -10px;
+left: 50px;
+    background: white;
+    text-align: justify;
+}
+
+.tout{
+  flex-direction: column;
+}
+.gauche{
+    padding-top:40px;
+}
+
+.presentation{
+    display: flex;
+   flex-direction: column;
+
+    
+}
+.presentation .name{
+padding-left: 30px;
+padding-top: 0px;
+position: relative;
+top: -30px;
+height:100px;
+width:238.99px;
+}
+.presentation h2{
+text-align:justify;
+    
+}
+.presentation p{
+text-align:justify;
+    
+}
+
+.espace{
+    padding-top:none;
+}
+.barre{
+  width:300px;
+}
+
+
+
+
+    
+}
